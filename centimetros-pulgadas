@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(void){
+	int b, pulg;
+	
+	printf("Dame la medida en centimetros  \n");
+	scanf("%d", &b);
+	pulg=b*2.54;
+	printf("El valor en pulgadas es: %d  \n", pulg);
+	return 0;
+	
+	
+	
+	
+}
